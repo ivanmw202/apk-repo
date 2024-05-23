@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Repositorio",
+    "slug": "Repositorio",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/ITSZ/LOGO.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/ITSZ/LOGO.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.danijqy_1517.Repositorio"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d46a7200-b279-495e-ba34-a77e1cce6ea9"
+      }
+    }
+  }
+}

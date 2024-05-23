@@ -1,0 +1,1 @@
+export const URL_BASE="http://187.210.77.104";
