@@ -285,7 +285,6 @@ const styles = StyleSheet.create({
     borderColor: 'transparent',
     borderRadius: 5, // Cambiado a número
     marginLeft: 35,
-    
     paddingStart: 3,
     padding: 10,
     width: 350,

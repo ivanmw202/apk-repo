@@ -64,6 +64,9 @@ export default function Recuperarcontrasena({ navigation }) {
                 source={require("../../assets/ITSZ/LargoB.jpg")}
               ></Image>
             </View>
+            <Text style={styles.sugerencia}>Para recuperar su contraseña, por favor
+            ingrese su correo institucional, con el que se registró. 
+            </Text>
             <View style={styles.contenedorP}>
               <View style={styles.datos}>
                 <TextInput
@@ -102,6 +105,7 @@ const styles = StyleSheet.create({
   mainContainer: {
     backgroundColor: "#ffffff",
     flex: 1,
+    
   },
   container1: {
     flex: 1,
@@ -155,18 +159,31 @@ const styles = StyleSheet.create({
     marginTop: 50,
   },
   containerIm: {
-    marginHorizontal: 50,
-    length: 20,
-    right: 80,
+    height:150,
+    alignItems: "center",
   },
   img: {
     marginBottom: 100,
-    width: 280,
+    width: 300,
     height: 80,
     borderWidth: 1,
     resizeMode: "contain",
-    marginLeft: 70,
+    marginLeft: 90,
     marginRight: 90,
     alignContent: "center",
   },
+  sugerencia: {
+    fontSize: 14,
+    marginTop: 1,
+    borderWidth: 1,
+    borderColor: 'transparent',
+    borderRadius: 5, // Cambiado a número
+    marginLeft: 27,
+    paddingStart: 3,
+    padding: 10,
+    width: 350,
+    height: 50,
+    padding: 1,
+    marginTop: 5,
+  }
 });

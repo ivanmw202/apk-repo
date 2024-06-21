@@ -151,7 +151,7 @@ const styles = StyleSheet.create({
   },
 
   bookCardContainer: {
-    width: 200,
+    width: 350,
     height: 200,
     marginBottom: 30,
     alignContent: "center",

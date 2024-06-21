@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Repositorio",
-    "slug": "Repositorio",
+    "slug": "ivanm",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/ITSZ/LOGO.png",
@@ -22,18 +22,23 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.danijqy_1517.Repositorio"
+      "package": "com.danijqy_1517.Repositorio",
+      "permissions": [
+        "INTERNET"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    
     "plugins": [
       "expo-secure-store"
     ],
     "extra": {
       "eas": {
-        "projectId": "d46a7200-b279-495e-ba34-a77e1cce6ea9"
+        "projectId": "e52ed758-b90e-4920-9ac5-e1bdf7508832"
       }
-    }
+    },
+    "owner": "ivanmw"
   }
 }
